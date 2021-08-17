@@ -1,0 +1,326 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body
+{
+    background:#000000;
+    color:#000000;
+}
+
+.header
+{
+    height:12%;
+    width:100%;
+    position:absolute;
+    display:flex;
+}
+
+.box1
+{
+    height:98%;
+    width:6%;
+    position:absolute;
+    margin:0.8rem 1.5rem;
+    background-image:url('../img/logo.jpg');
+    background-size:100% 100%;
+    border-radius:10rem;
+}
+
+.box2
+{
+    height:90%;
+    width:40rem;
+    margin:0.2rem 25rem;
+    line-height:8vw;
+}
+
+.box2 h2
+{
+    margin-left:3rem;
+    color:#ffffff;
+}
+
+@media screen and (max-width: 600px) and (max-height: 1038px)
+{
+    .header
+{
+    height:12%;
+    width:100%;
+    position:absolute;
+    display:flex;
+}
+    .box1
+    {
+    height:70%;
+    width:15%;
+    position:absolute;
+    margin:0.8rem 1.5rem;
+    background-image:url('../img/logo.jpg');
+    background-size:100% 100%;
+    border-radius:10rem;
+    }
+
+    .box2
+{
+    height:90%;
+    width:90%;
+    font-size:0.8rem;
+    margin:0.2rem 9rem;
+    padding:0.1rem 0.1rem;
+    line-height:8vw;
+}
+
+}
+
+/***** header ends over here ********/
+
+/*** from now on article page will start *****/
+
+.box3
+{
+    height:150%;
+    width:95%;
+    position:absolute;
+    top:20%;
+    left:2.5%;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns:14rem 1fr 15rem;
+    grid-gap:0.5rem;
+}
+
+.subbox1_box3
+{
+    grid-row-start:1;
+    grid-row-end:4;
+}
+
+.box1_subbox1
+{
+    height:40%;
+    width:95%;
+    position:relative;
+    left:0.5rem;
+    top:0.2rem;
+    background:#444444;
+}
+
+.box2_subbox1
+{
+    height:40%;
+    width:95%;
+    position:relative;
+    left:0.5rem;
+    top:5%;
+    background:#444444;
+}
+
+
+.subbox2_box3
+{
+    grid-row-start:1;
+    grid-row-end:4;
+    display:flex;
+    flex-direction:column;
+}
+
+.box1_subbox2
+{
+    height:30%;
+    width:98%;
+    left:0.3rem;
+    position:relative;
+    background:#444444;
+}
+
+.box2_subbox2
+{
+    height:30%;
+    width:98%;
+    left:0.3rem;
+    top:1rem;
+    position:relative;
+    background:#444444;
+}
+
+.box3_subbox2
+{
+    height:30%;
+    width:98%;
+    left:0.3rem;
+    top:2rem;
+    position:relative;
+    background:#444444;
+}
+
+
+.subbox3_box3
+{
+    grid-row-start:1;
+    grid-row-end:4;
+}
+
+.box1_subbox3
+{
+    height:40%;
+    width:95%;
+    left:0.5rem;
+    position:relative;
+    top:0.2rem;
+    background:#444444;
+}
+
+.box2_subbox3
+{
+    height:40%;
+    width:95%;
+    position:relative;
+    left:0.5rem;
+    top:5%;
+    background:#444444;
+}
+
+@media screen and (max-width: 600px) and (max-height: 1038px)
+{
+    .box3
+{
+    height:120%;
+    width:95%;
+    position:absolute;
+    top:20%;
+    left:2.5%;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.subbox1_box3
+{
+    height:15%;
+    width:100%;
+    position:relative;
+    display:flex;
+}
+
+.box1_subbox1
+{
+    height:100%;
+    width:30%;
+    position:relative;
+    top:0.2rem;
+    left:1.5rem;
+    background:#444444;
+}
+
+.box2_subbox1
+{
+    height:100%;
+    width:30%;
+    position:relative;
+    top:0.2rem;
+    left:12rem;
+    background:#444444;
+}
+
+.subbox2_box3
+{
+    height:80%;
+    width:100%;
+    position:relative;
+    top:2%;
+}
+
+.box1_subbox2
+{
+    height:30%;
+    width:98%;
+    left:0.3rem;
+    position:relative;
+    background:#444444;
+}
+
+.box2_subbox2
+{
+    height:30%;
+    width:98%;
+    left:0.3rem;
+    top:1rem;
+    position:relative;
+    background:#444444;
+}
+
+.box3_subbox2
+{
+    height:30%;
+    width:98%;
+    left:0.3rem;
+    top:2rem;
+    position:relative;
+    background:#444444;
+}
+
+.subbox3_box3
+{
+    height:15%;
+    width:100%;
+    position:relative;
+    top:4%;
+    display:flex;
+}
+
+.box1_subbox3
+{
+    height:100%;
+    width:30%;
+    left:0.3rem;
+    position:relative;
+    top:0.2rem;
+    background:#444444;
+}
+
+.box2_subbox3
+{
+    height:100%;
+    width:30%;
+    position:relative;
+    background:#444444;
+    left:14rem;
+    top:0.2rem
+}
+
+}
+
+/* article styling section has ended over here ****
+from now on footer secton will start **************/
+
+.footer
+{
+    height:12%;
+    width:100%;
+    position:absolute;
+    background:red;
+    color:#ffffff;
+    top:180%;
+    display:flex;
+    justify-content:center;
+    line-height:5vw;
+    font-size:2vw;
+}
+
+@media screen and (max-width: 600px) and (max-height: 1038px)
+{
+    .footer
+    {
+        height:10%;
+        width:100%;
+        position:absolute;
+        top:150%;
+        font-size:120%;
+        line-height:14vw;
+        background:red;
+    }
+}
