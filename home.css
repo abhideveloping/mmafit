@@ -451,6 +451,73 @@ body
     position:absolute;
     border:1px solid grey;
     top:214rem;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1rem;
+}
+
+.box1_contactbox
+{
+    font-size:1.2rem;
+    font-weight:bolder;
+    padding:5px 10px;
+    color:#ffffff;
+}
+
+.box2_contactbox
+{
+    font-size:2rem;
+    font-weight:bolder;
+    padding:5px 80px;
+    color:#ffffff;
+}
+
+.box3_contactbox
+{
+    font-size:1.2rem;
+    font-weight:bolder;
+    padding:5px 10px;
+    color:#ffffff;
+}
+
+.box4_contactbox
+{
+    font-size:1.6rem;
+    font-weight:bolder;
+    padding:5px 100px;
+    color:#ffffff;
+}
+
+.box5_contactbox
+{
+    font-size:1.2rem;
+    font-weight:bolder;
+    padding:5px 10px;
+    color:#ffffff;
+}
+
+.box6_contactbox
+{
+    font-size:1.2rem;
+    font-weight:bolder;
+    padding:5px 80px;
+    color:#ffffff;
+    display:flex;
+}
+
+.pic_contanctbox
+{
+    height:40%;
+    width:8%;
+    background-image:url('../img/insta.png');
+    background-size:100% 100%;
+    margin:10px 20px;
+}
+
+.text
+{
+    margin:8px 5px;
 }
 
 /*** contact section has ended over here 
@@ -458,12 +525,24 @@ body
 
 .footer
 {
-    height:20%;
+    height:15%;
     width:100%;
     position:absolute;
     top:231rem;
-    background:blue;
     display:flex;
     justify-content:center;
+    flex-direction:column;
     color:#ffffff;
+}
+
+.footer h1
+{
+    color:rgb(214, 31, 31);
+    text-align:center;
+}
+
+.footer p
+{
+    font-size:1.2rem;
+    text-align:center;
 }
