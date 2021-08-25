@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css"/>
+    <script src="home.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="navbox">
+    <div class="content">
+    <div class="navbox" id="navbox-1">
         <div class="picbox1"></div>
-        <div class="box1_navbox"><h3>Add Question</h3></div>
-        <div class="box2_navbox"><h3>Articles</h3></div>
-        <div class="box3_navbox"><h3>Recommendations</h3></div>
-        <div class="instabox"></div>
+        <div class="box1_navbox"><a href="#"><h3>Add Question</h3></a></div>
+        <div class="box2_navbox"><a href="#"><h3>Articles</h3></a></div>
+        <div class="box3_navbox"><a href="#"><h3>Recommendations</h3></a></div>
+        <a href="#"><div class="youtube"></div></a>
+        <a href="#"><div class="redittbox"></div></a>
+        <a href="#"><div class="instabox"></div></a>
         <div class="search"><input type="search" class="searchbox" placeholder="search MMA FIT"></div>
-        <div class="box4_navbox">Sign In</div>
+        <a href="#"><div class="box4_navbox">Sign In</div></a>
+        </div>
 
     <!--- navigation part end over here -->
     <!-- from here the content part will be started-->
@@ -25,60 +30,60 @@
         </div>
         
         <hr style="height:2px; width:65%; position:absolute; left:14rem; top:20rem; border-width:0; color:red; background-color:red">
-
-        <!--- Next content section will begin from this end -->
-
-        <div class="secondcontent">
-            <div class="sub_secondcontent">
-                <div class="box1_sub_secondcontent"><h1>FITNESS</h1></div>
-                <div class="box2_sub_secondcontent"><input type="text" class="searchproduct" placeholder="search"></div>
-                <div class="box3_sub_secondcontent"><h3>Category</h3></div>
-            </div>
-
-
-            <div class="content_secondcontent">
-                <div class="box1_content"></div>
-                <div class="box2_content"></div>
-                <div class="box3_content"></div>
-                <div class="box4_content"></div>
-                <div class="box5_content"></div>
-                <div class="box6_content"></div>
-                <div class="box7_content"></div>
-                <div class="box8_content"></div>
-                <div class="box9_content"></div>
-            </div>
         </div>
+
+    <!-------- Next Section will start from here ------------------>
+
+    <div class="secondcontent">
+        <div class="sub_secondcontent">
+            <div class="box1_sub_secondcontent"><h1>FITNESS</h1></div>
+            <div class="box2_sub_secondcontent"><input type="text" class="searchproduct" placeholder="search"></div>
+            <div class="box3_sub_secondcontent"><h3>Category</h3></div>
         </div>
+
+
+        <div class="content_secondcontent">
+            <div class="box1_content"></div>
+            <div class="box2_content"></div>
+            <div class="box3_content"></div>
+            <div class="box4_content"></div>
+            <div class="box5_content"></div>
+            <div class="box6_content"></div>
+            <div class="box7_content"></div>
+            <div class="box8_content"></div>
+            <div class="box9_content"></div>
+        </div>
+    </div>
     
 
     <!---- second content is suppose to start from here -->
-        <div class="click"><h3>Click For More</h3></div>
+<div class="click"><h3>Click For More</h3></div>
 
-        <hr style="height:2px; width:65%; position:absolute; left:14rem; top:82rem; border-width:0; color:grey; background-color:grey">
-    <!---- Third content will start from here -->
+<hr style="height:2px; width:65%; position:absolute; left:14rem; top:82rem; border-width:0; color:grey; background-color:grey">
+<!---- Third content will start from here -->
 
-        <div class="thirdcontent">
-            <div class="menu_thirdcontent">
-                <div class="box1_menu_thirdcontent"><h2>Content<br/>Creation</h2></div>
-                <div class="box2_menu_thirdcontent"><input type="text" class="searchitem" placeholder="search"></div>
-                <div class="box3_menu_thirdcontent">Category</div>
-            </div>
+<div class="thirdcontent">
+    <div class="menu_thirdcontent">
+        <div class="box1_menu_thirdcontent"><h2>Content<br/>Creation</h2></div>
+        <div class="box2_menu_thirdcontent"><input type="text" class="searchitem" placeholder="search"></div>
+        <div class="box3_menu_thirdcontent">Category</div>
+    </div>
 
-            <div class="content_thirdcontent">
-                <div class="box1_thirdcontent"></div>
-                <div class="box2_thirdcontent"></div>
-                <div class="box3_thirdcontent"></div>
-                <div class="box4_thirdcontent"></div>
-                <div class="box5_thirdcontent"></div>
-                <div class="box6_thirdcontent"></div>
-                <div class="box7_thirdcontent"></div>
-                <div class="box8_thirdcontent"></div>
-                <div class="box9_thirdcontent"></div>
-            </div>
+    <div class="content_thirdcontent">
+        <div class="box1_thirdcontent"></div>
+        <div class="box2_thirdcontent"></div>
+        <div class="box3_thirdcontent"></div>
+        <div class="box4_thirdcontent"></div>
+        <div class="box5_thirdcontent"></div>
+        <div class="box6_thirdcontent"></div>
+        <div class="box7_thirdcontent"></div>
+        <div class="box8_thirdcontent"></div>
+        <div class="box9_thirdcontent"></div>
+    </div>
 
-        </div>
-        
-        <div class="click2"><h3>Click For More</h3></div>
+</div>
+
+<div class="click2"><h3>Click For More</h3></div>
 
         <hr style="height:2px; width:65%; position:absolute; left:14rem; top:150rem; border-width:0; color:grey; background-color:grey">
 
@@ -90,8 +95,9 @@
             <div class="box4_fourthcontent"></div>
         </div>
 
-        <!--- contact section will start from here -->
-        <div class="contactbox">
+
+         <!--- contact section will start from here -->
+         <div class="contactbox">
             <div class="box1_contactbox">Add Question</div>
             <div class="box2_contactbox">CONTACT ME</div>
             <div class="box3_contactbox">Articles</div>
@@ -102,9 +108,9 @@
                 <span class='text'>@mutant1452</span>
             </div>
         </div>
-    
 
-        <!-- contact section has ended-->
+
+         <!-- contact section has ended-->
 
 
         <!--From now on footer section will start-->
@@ -112,5 +118,7 @@
             <h1>MMA FIT WITH ABHINAV</h1>
             <p>Support Free Fitness Movement</p>
         </div>
+
+
 </body>
 </html>
